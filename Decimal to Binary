@@ -1,0 +1,11 @@
+import java.util.*;
+public class DecimalToBinary
+{
+    public static void main(String[]args)
+    {
+        int decimalNumber=21;
+        String binary=Integer.toBinaryString(decimalNumber);
+        System.out.println("Decimal Number : " + decimalNumber);
+        System.out.println("Binary Number : " + binary);
+    }
+}
