@@ -1,0 +1,13 @@
+public class R192211507
+{
+  public static void main(String[]args)
+  {
+    int n1=5,n2=10,n3=15,max;
+    max=n1;
+    if(n2>max)
+      max=n2;
+    if(n3>max)
+      max=n3;
+    System.out.println("The maximum of " + n1 + ", " + n2 + ", and " + n3 + " is: " + max);
+  }
+}
