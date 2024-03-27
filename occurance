@@ -1,0 +1,17 @@
+class R192211507
+{
+  public static void main(String[]args)
+  {
+    String str="pushyami reddy";
+    char ch='y';
+    int count=0,i;
+    for(i=0;i<str.length();i++)
+    {
+      if(str.charAt(i)==ch)
+      {
+        count++;
+      }
+    }
+    System.out.println("the occurance of "+ch+" is "+count+" times");
+  }
+}
